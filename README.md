@@ -1,12 +1,19 @@
-# React + Vite
+# Oceloteapp — Flashcards App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta app es una herramienta de tarjetas de memoria (flashcards) creada con React y Vite.  
+Permite crear, revisar, buscar y exportar/importar mazos de tarjetas.  
+Ideal para aprender vocabulario, frases o cualquier dato tipo pregunta-respuesta.
 
-Currently, two official plugins are available:
+## ¿Qué incluye este proyecto?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Bundler ultra rápido para desarrollo y build de producción.
+- **React**: Para construir una interfaz rápida y moderna.
+- **Recharts**: Para mostrar gráficas de progreso.
+- **FileSaver**: Para exportar/importar mazos.
+- **ESLint**: Reglas recomendadas y soporte a React Hooks.
 
-## Expanding the ESLint configuration
+## Uso rápido en local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
